@@ -1,3 +1,7 @@
+mod primitives;
+
 fn main() {
-    println!("Hello, world!");
+	println!("Hello, world!");
+
+	primitives::print_primitives();
 }
